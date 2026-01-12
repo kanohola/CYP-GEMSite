@@ -1,13 +1,15 @@
 # CYP-GEMSite
 
-[cite_start]CYP-GEMSite is a geometry-aware and edge-enhanced Graph Transformer model designed for the accurate prediction of Cytochrome P450 (CYP450)-mediated Sites of Metabolism (SoMs)[cite: 1, 6].
+CYP-GEMSite is a geometry-aware and edge-enhanced Graph Transformer model designed for the accurate prediction of Cytochrome P450 (CYP450)-mediated Sites of Metabolism (SoMs).
 
 ## 🧠 Model Architecture
 
-The model framework integrates three key components to capture complex enzyme-substrate interactions:
+The model framework integrates three key components to predict potential SoMs:
 
 **Edge-Enhanced Backbone:** Incorporates a "Dynamic Edge Update" mechanism within the Graph Transformer blocks to explicitly model the electronic evolution of chemical bonds (e.g., bond cleavage) during metabolic reactions.
+
 **Geometry-Aware Global Layer:** Features a "Global Transformer Layer" that fuses Shortest Path Distance (SPD) with 3D spatial information (encoded via Gaussian RBF) to effectively capture long-range steric hindrance and conformational constraints.
+
 **Multi-Scale Readout:** The final prediction aggregates fine-grained node features, local edge contexts, and global molecular representations to ensure high precision.
 
 ## 🚀 Usage
