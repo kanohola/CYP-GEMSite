@@ -15,7 +15,7 @@ The model framework integrates three key components to predict potential SoMs:
 ## 🚀 Usage
 
 You can use the provided script `Predict_by_CYP-GEMSite.py` to predict SoMs for new molecules. The script handles 3D conformer generation and feature extraction automatically.
-Environment configuration details can be found in env.txt.
+Environment configuration details can be found in env.txt. Python version is 3.9.20.
 
 ### Command Example
 
