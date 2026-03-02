@@ -34,4 +34,4 @@ python Predict_by_CypGEM.py \
 ## 📂 Datasets
 
 * **External Test Set:** The independent external validation set for this project is located at `External_test_set.sdf`.
-* **Training Data Source:** The `zaretzki_original.sdf` file used in this study is derived from the work of Li et al. and is available at: [[https://github.com/molinfo-vienna/FAME.AL](https://github.com/molinfo-vienna/FAME.AL)](https://github.com/liyigerry/GraphCySoM).
+* **Training Data Source:** The `zaretzki_original.sdf` file used in this study is derived from the work of Li et al. and is available at: https://github.com/liyigerry/GraphCySoM.
