@@ -29,9 +29,8 @@ python Predict_by_CypGEM.py \
 * `--model`: Path to the pre-trained model weights (`.pt` file).
 * `--input`: Input file path. Supports `.sdf` files or a single SMILES string.
 * `--output_dir`: Directory to save prediction results (CSV tables and visualized PNG images).
-* `--threshold`: Probability threshold for identifying a Site of Metabolism (Default: 0.6452).
 
 ## 📂 Datasets
 
-* **External Test Set:** The independent external validation set for this project is located at `External_test_set.sdf`.
+* **External Test Set:** The independent external validation set for this project is located at `zaretzki_original.sdf`.
 * **Training Data Source:** The `zaretzki_original.sdf` file used in this study is derived from the work of Li et al. and is available at: https://github.com/liyigerry/GraphCySoM.
