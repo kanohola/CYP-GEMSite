@@ -23,7 +23,7 @@ Environment configuration details can be found in env.txt. Python version is 3.9
 python Predict_by_CypGEM.py \
   --model ./Model/CypGEM.pt \
   --input ./Data/External_test_set.sdf \
-  --output_dir ./results 
+  --out ./results 
 ```
 ### Arguments
 * `--model`: Path to the pre-trained model weights (`.pt` file).
