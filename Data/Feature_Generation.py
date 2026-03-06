@@ -53,8 +53,10 @@ class V7_Multitask_Dataset(Dataset):
         valid_count = 0
         for i, mol in enumerate(tqdm(mols, desc="Processing")):
             if mol is None: continue
-            
-            
+            try:
+                AllChem.ComputeGasteigerCharges(mol)
+            except:
+                pass
             try:
                 x = self._get_node_features(mol)
                 edge_attr = self._get_edge_features(mol)
