@@ -1,1 +1,2 @@
 Model/CYP-GEMSite.pt filter=lfs diff=lfs merge=lfs -text
+Model/*.pt filter=lfs diff=lfs merge=lfs -text
